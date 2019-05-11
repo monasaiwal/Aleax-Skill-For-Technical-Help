@@ -1,0 +1,82 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "techie",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "WifiConnectionError",
+                    "slots": [],
+                    "samples": [
+                        "not able to connect to wifi",
+                        "wifi not connected",
+                        "wifi connection lost",
+                        "wifi connection error",
+                        "why my wifi is not connected"
+                    ]
+                },
+                {
+                    "name": "LightTurnOnError",
+                    "slots": [],
+                    "samples": [
+                        "problem turning kitchen light on",
+                        "kitchen light is having problem to turn on",
+                        "light connection error",
+                        "light is not on",
+                        "kitchen red light is off ",
+                        "why my kitchen light is not getting turned on"
+                    ]
+                },
+                {
+                    "name": "LightRed",
+                    "slots": [],
+                    "samples": [
+                        "kitchen red light light no three",
+                        "third light ",
+                        "red light",
+                        "problem with light no three",
+                        "problem with red light"
+                    ]
+                },
+                {
+                    "name": "steps",
+                    "slots": [],
+                    "samples": [
+                        "yes tell me steps",
+                        "how should i connect to wifi",
+                        "what are steps to connect to wifi"
+                    ]
+                },
+                {
+                    "name": "GreetHelloWorld",
+                    "slots": [],
+                    "samples": [
+                        "say",
+                        "say hello",
+                        "say something"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
